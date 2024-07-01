@@ -1,132 +1,132 @@
 body {
-    font-family: "Roboto Slab", serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Header Section Styling */
 header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
 }
 
 #profile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 #profile img {
-    border-radius: 20px;
-    width: 150px;
-    height: 150px;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
 }
 
 /* Main Section Styling */
 main {
-    padding: 20px;
+  padding: 20px;
 }
-h2{
-    color: #4CAF50;
-    text-align: center;
+h2 {
+  color: #4caf50;
+  text-align: center;
 }
 .card {
-    background-color: #f1f1f1;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 20px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
 }
 
 .card-content {
-    padding-top: 10px; 
+  padding-top: 10px;
 }
 
 /* Footer Section Styling */
 footer {
-    background-color: #f1f1f1;
-    text-align: center;
-    padding: 10px 0;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px 0;
 }
 
 #links a {
-    margin: 0 10px;
-    color: #4CAF50;
-    text-decoration: none;
+  margin: 0 10px;
+  color: #4caf50;
+  text-decoration: none;
 }
 
 #links a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .text-color {
-    color: #4CAF50;
+  color: #4caf50;
 }
 
-.text-color span{
-    font-weight: 500;
-    color: #000;
+.text-color span {
+  font-weight: 500;
+  color: #000;
 }
 /* Media Queries for responsiveness */
 
 /* For tablets and larger screens */
 @media (min-width: 768px) {
-    header {
-        padding: 30px 0;
-    }
+  header {
+    padding: 30px 0;
+  }
 
-    main {
-        padding: 40px;
-    }
+  main {
+    padding: 40px;
+  }
 
-    #profile img {
-        width: 200px;
-        height: 200px;
-    }
+  #profile img {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 /* For desktop and larger screens */
 @media (min-width: 1024px) {
-    header {
-        padding: 40px 0;
-    }
+  header {
+    padding: 40px 0;
+  }
 
-    main {
-        padding: 60px;
-        max-width: 800px;
-        margin: 0 auto;
-    }
+  main {
+    padding: 60px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
 
-    footer {
-        padding: 20px 0;
-    }
+  footer {
+    padding: 20px 0;
+  }
 
-    #links a {
-        margin: 0 20px;
-    }
+  #links a {
+    margin: 0 20px;
+  }
 }
 
 /* For mobile devices */
 @media (max-width: 767px) {
-    header {
-        padding: 10px 0;
-    }
+  header {
+    padding: 10px 0;
+  }
 
-    main {
-        padding: 10px;
-    }
+  main {
+    padding: 10px;
+  }
 
-    #profile img {
-        width: 100px;
-        height: 100px;
-    }
+  #profile img {
+    width: 100px;
+    height: 100px;
+  }
 
-    #links a {
-        display: block;
-        margin: 10px 0;
-    }
+  #links a {
+    display: block;
+    margin: 10px 0;
+  }
 }
