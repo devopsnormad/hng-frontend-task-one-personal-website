@@ -14,13 +14,14 @@
 <body>
     <header>
         <div id="profile">
-            <img src="/images/profile-pic.jpeg" alt="Slack Profile Picture" data-testid="slack-ProfilePicture">
+            <img src="/images/profile-pic.jpeg" alt="Slack Profile Picture" data-testid="slackProfilePicture">
             <h1 data-testid="slack-DisplayName">Emmanuel Doji</h1>
         </div>
     </header>
     <main>
-        <section id="goals">
+        <section id="goals" class="card">
             <h2 data-testid="goalsTitle">My Tech Goals for the Next 2 Years</h2>
+            <div class="card-content">
             <p>
                 Over the next two years, I am committed to advancing my skills and knowledge in frontend development. My
                 primary goal is to become proficient in frontend web development, with a strong focus in front-end
@@ -50,13 +51,14 @@
                 innovative projects and make a positive impact in the tech community. I am excited about the journey
                 ahead and look forward to achieving these milestones over the next two years.
             </p>
+        </div>
         </section>
     </main>
     <footer>
         <div id="info">
             <p data-testid="currentTimeUTC" class="text-color"> Current Time in UTC: <span
-                    id="current-time">Loading...</span></p>
-            <p data-testid="currentDay" class="text-color"> Current Day: <span id="current-day">Loading...</span></p>
+                    id="current-time"></span></p>
+            <p data-testid="currentDay" class="text-color"> Current Day: <span id="current-day"></span></p>
             <p data-testid="slackEmail" class="text-color">My Slack Email: <span
                     id="slack-email">dojiemma@gmail.com</span></p>
         </div>

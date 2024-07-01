@@ -21,7 +21,7 @@ header {
 }
 
 #profile img {
-    border-radius: 50%;
+    border-radius: 20px;
     width: 150px;
     height: 150px;
 }
@@ -32,7 +32,20 @@ main {
 }
 h2{
     color: #4CAF50;
+    text-align: center;
 }
+.card {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+.card-content {
+    padding-top: 10px; 
+}
+
 /* Footer Section Styling */
 footer {
     background-color: #f1f1f1;
@@ -55,7 +68,7 @@ footer {
 }
 
 .text-color span{
-    font-weight: bold;
+    font-weight: 500;
     color: #000;
 }
 /* Media Queries for responsiveness */
